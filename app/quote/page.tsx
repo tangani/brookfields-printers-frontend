@@ -19,23 +19,25 @@ export default function QuotePage() {
                     <input
                         type="text"
                         placeholder="Full name"
-                        className="w-full rounded-xl border px-4 py-3 outline-none focus:border-red-600"
+                        className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-gray-900 placeholder:text-gray-500 outline-none focus:border-red-600"
                     />
 
                     <input
                         type="email"
                         placeholder="Email address"
-                        className="w-full rounded-xl border px-4 py-3 outline-none focus:border-red-600"
+                        className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-gray-900 placeholder:text-gray-500 outline-none focus:border-red-600"
                     />
 
                     <input
                         type="text"
                         placeholder="Phone number"
-                        className="w-full rounded-xl border px-4 py-3 outline-none focus:border-red-600"
+                        className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-gray-900 placeholder:text-gray-500 outline-none focus:border-red-600"
                     />
 
-                    <select className="w-full rounded-xl border px-4 py-3 outline-none focus:border-red-600">
-                        <option>Select a service</option>
+                    <select
+                        className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-none focus:border-red-600"
+                    >
+                        <option value="">Select a service</option>
                         <option>Large Format Printing</option>
                         <option>T-Shirt DTF</option>
                         <option>Correx Boards</option>
@@ -47,7 +49,7 @@ export default function QuotePage() {
                     <textarea
                         placeholder="Tell us more about your request..."
                         rows={6}
-                        className="w-full rounded-xl border px-4 py-3 outline-none focus:border-red-600"
+                        className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-gray-900 placeholder:text-gray-500 outline-none focus:border-red-600"
                     />
 
                     <button
