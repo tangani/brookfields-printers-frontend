@@ -29,8 +29,10 @@ export default function QuotePage() {
                     />
 
                     <input
-                        type="text"
+                        type="tel"
                         placeholder="Phone number"
+                        inputMode="numeric"
+                        pattern="[0-9]*"
                         className="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-gray-900 placeholder:text-gray-500 outline-none focus:border-red-600"
                     />
 
